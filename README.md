@@ -1,2 +1,0 @@
-# vikingclan
-Comunidad Vikings
