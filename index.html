@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineage 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="background-music" loop autoplay>
+        <source src="background-music.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    <div class="music-controls">
+        <button id="playButton">Reproducir</button>
+        <button id="pauseButton">Pausa</button>
+        <button id="muteButton">Silenciar</button>
+    </div>
+    <header>
+        <img src="images/logo.jpg" alt="Lineage 2 Header" class="header-image">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Clan</a></li>
+                <li><a href="#">Informacion</a></li>
+                <li><a href="#">Macros</a></li>
+                <li class="dropdown">
+                    <a href="#">Admin</a>
+                    <ul class="dropdown-content">
+                        <li><a href="cpanel.html">Panel de Control</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="timezones">
+            <div id="chile-time"></div>
+            <div id="argentina-time"></div>
+            <div id="brasil-time"></div>
+        </div>
+        <section class="dynamic-content">
+            <div class="image-gallery">
+                <img src="images/razas/orcos.jpg" alt="Orcos">
+                <img src="images/razas/elfosblancos.jpg" alt="Elfos Blancos">
+                <img src="images/razas/humanos.jpg" alt="Humanos">
+                <img src="images/razas/elfosnegros.jpg" alt="Elfos Negros">
+                <img src="images/razas/enanos.jpg" alt="Enanos">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
